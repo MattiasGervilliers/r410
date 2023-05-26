@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+#temperature {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 2rem;
+  row-gap: 0.5rem;
+}
+#temperature #affichage {
+  width: fit-content;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+#temperature .cold {
+  border: 2px solid blue;
+  background-color: rgba(0, 0, 255, 0.6);
+}
+#temperature .cool {
+  border: 2px solid green;
+  background-color: rgba(0, 255, 0, 0.6);
+}
+#temperature .warm {
+  border: 2px solid orange;
+  background-color: rgba(255, 165, 0, 0.6);
+}
+#temperature .hot {
+  border: 2px solid red;
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+.historique-section {
+  margin: 1rem 2rem;
+}
+.historique-section #historique {
+  height: 100%;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
