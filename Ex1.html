@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet">
+    <script defer type="module" src="script.js"></script>
+</head>
+<body>
+<nav>
+    <ul role="tablist">
+        <li class="selected" id="temperatureTab" role="tab">Température actuelle</li>
+        <li id="historiqueTab" role="tab">Historique des températures</li>
+    </ul>
+</nav>
+<section id="temperature">
+    <h1>Température</h1>
+    <p id="affichage" aria-live="assertive"></p>
+</section>
+<section class="historique-section" hidden>
+    <h1>Historique des températures</h1>
+    <div id="historique" role="alert" aria-live="polite">
+    </div>
+</section>
+</body>
+</html>
